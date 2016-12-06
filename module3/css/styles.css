@@ -1,0 +1,120 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#navigationbar { 
+    background-color: rgb(153, 153, 153);
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.navbar-brand a { 
+    color: black;
+    font-size: 175%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    color: rgb(211,211,211);
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+    color: black;
+}
+
+#nav-list { 
+    background-color: rgb(211,211,211);
+    font-size: 125%;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+#nav-list li { 
+    padding: -10px;
+    border: 1px solid black;
+}
+
+#nav-list li:first-child { 
+    border-top: 2px solid black;
+}
+
+#nav-list a { 
+    color: black;
+}
+
+#nav-list a:hover#chicken-link {
+    background-color: rgb(213, 152, 152);
+}
+
+#nav-list a:hover#beef-link {
+    background-color: rgb(193, 69, 67);
+    color: white;
+}
+
+#nav-list a:hover#sushi-link {
+    background-color: rgb(229, 209, 152);
+}
+
+.section {
+	background-color: rgb(153, 153, 153);
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    margin-bottom: 1ex;
+    margin-top: 1ex;
+    position: relative;
+    text-align: left;
+}
+
+.section > h1 {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 125%;
+    margin: 0;
+    padding-bottom: 0.25ex;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-top: 0.25ex;
+    position: absolute;
+    right: -1px;
+    text-align: center;
+    top: -1px;
+    width: 150px;
+}
+
+.section > p { 
+    clear: right;
+    padding-bottom: 0ex;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 4ex;
+}
+
+.section a { 
+    color: rgb(211,211,211);
+}
+
+#chicken-section > h1 {
+    background-color: rgb(213, 152, 152);
+}
+
+#beef-section > h1 {
+    background-color: rgb(193, 69, 67);
+    color: white;
+}
+
+#sushi-section > h1 {
+    background-color: rgb(229, 209, 152);
+}
